@@ -1,0 +1,15 @@
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab01\zad2\obj\Debug\net7.0\zad2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab01\zad2\obj\Debug\net7.0\zad2.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab01\zad2\obj\Debug\net7.0\zad2.AssemblyInfo.cs
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab01\zad2\obj\Debug\net7.0\zad2.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab01\zad2\bin\Debug\net7.0\zad2.exe
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab01\zad2\bin\Debug\net7.0\zad2.deps.json
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab01\zad2\bin\Debug\net7.0\zad2.runtimeconfig.json
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab01\zad2\bin\Debug\net7.0\zad2.dll
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab01\zad2\bin\Debug\net7.0\zad2.pdb
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab01\zad2\obj\Debug\net7.0\zad2.dll
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab01\zad2\obj\Debug\net7.0\refint\zad2.dll
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab01\zad2\obj\Debug\net7.0\zad2.pdb
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab01\zad2\obj\Debug\net7.0\zad2.genruntimeconfig.cache
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab01\zad2\obj\Debug\net7.0\ref\zad2.dll
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab01\zad2\obj\Debug\net7.0\zad2.sourcelink.json
