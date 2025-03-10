@@ -1,7 +1,6 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
-
-namespace zad2;
 
 class Program{
     static void Main(string[] args){

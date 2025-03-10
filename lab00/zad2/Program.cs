@@ -1,8 +1,6 @@
 ﻿using System;
 using System.IO;
 
-namespace zad2;
-
 class Program{
     static void Main(string[] args){
         Console.WriteLine("Wypisz dane liczbowe, a na końcu napisz 0:");

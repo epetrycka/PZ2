@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("zad3")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("zad4")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd354cf5c89c2d72ff179ee1e12a1165f0f7886a")]
-[assembly: System.Reflection.AssemblyProductAttribute("zad3")]
-[assembly: System.Reflection.AssemblyTitleAttribute("zad3")]
+[assembly: System.Reflection.AssemblyProductAttribute("zad4")]
+[assembly: System.Reflection.AssemblyTitleAttribute("zad4")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Wygenerowane przez klasę WriteCodeFragment programu MSBuild.
