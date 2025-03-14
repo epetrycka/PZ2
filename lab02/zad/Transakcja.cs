@@ -25,4 +25,13 @@ public class Transakcja{
         Kwota = kwota;
         Opis = opis;
     }
+
+    public override string ToString(){
+        return 
+$@"Numer rachunku zrodlowego: {RachunekZrodlowy?.Numer ?? "Brak danych"} 
+Numer rachunku docelowego: {RachunekDocelowy?.Numer ?? "Brak danych"} 
+Kwota transakcji: {Kwota}
+Opis transakcji: {Opis}";
+
+    }
 }

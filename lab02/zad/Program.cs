@@ -17,8 +17,8 @@ class Program
         RachunekBankowy rachunek1 = new("123-456-789", 5000, false, listaPosiadaczy1);
         RachunekBankowy rachunek2 = new("987-654-321", 2000, true, listaPosiadaczy2);
 
-        Console.WriteLine($"Utworzono rachunek: {rachunek1.Numer} z saldem: {rachunek1.StanRachunku} zł");
-        Console.WriteLine($"Utworzono rachunek: {rachunek2.Numer} z saldem: {rachunek2.StanRachunku} zł\n");
+        Console.WriteLine($"===Utworzono rachunek:=== \n {rachunek1.ToString()} \n");
+        Console.WriteLine($"===Utworzono rachunek:=== \n {rachunek2.ToString()} \n");
 
         try
         {
@@ -47,13 +47,19 @@ class Program
         Console.WriteLine("\n=== Historia transakcji rachunku1 ===");
         foreach (var transakcja in rachunek1.Transakcje)
         {
-            Console.WriteLine($"{transakcja.Opis}: {transakcja.Kwota} zł");
+            Console.WriteLine(transakcja.ToString());
         }
 
         Console.WriteLine("\n=== Historia transakcji rachunku2 ===");
         foreach (var transakcja in rachunek2.Transakcje)
         {
-            Console.WriteLine($"{transakcja.Opis}: {transakcja.Kwota} zł");
+            Console.WriteLine(transakcja.ToString());
         }
+
+        Console.WriteLine($"\n===Rachunek2:=== \n {rachunek2.ToString()} \n");
+
+        OsobaFizyczna osoba3 = new OsobaFizyczna("Jan", "Kowalski", null, "05281109844", "023");
+        rachunek1 = rachunek1 + osoba3;
+        Console.WriteLine($"\n===Rachunek1:=== \n {rachunek1.ToString()} \n");
     }
 }

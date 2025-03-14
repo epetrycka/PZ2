@@ -52,4 +52,35 @@ public class RachunekBankowy{
             rachunekZrodlowy.transakcje.Add(new Transakcja(rachunekZrodlowy, rachunekDocelowy, kwota, opis));
         }
     }
+
+    public static RachunekBankowy operator +(RachunekBankowy rachunek, PosiadaczRachunku posiadacz)
+    {
+        if (rachunek.posiadaczeRachunku.Contains(posiadacz))
+        {
+            throw new Exception("Posiadacz już jest na liście posiadaczy rachunku.");
+        }
+
+        rachunek.posiadaczeRachunku.Add(posiadacz);
+        return rachunek;
+    }
+
+    public static RachunekBankowy operator -(RachunekBankowy rachunek, PosiadaczRachunku posiadacz){
+        if (!rachunek.posiadaczeRachunku.Contains(posiadacz)){
+            throw new Exception("Posiadacza nie ma na liście posiadaczy rachunku");
+        }
+        if (rachunek.PosiadaczeRachunku.Count <= 1){
+            throw new Exception("Nie można usunąć posiadacza, rachunek ma tylko jednego posiadacza");
+        }
+
+        rachunek.posiadaczeRachunku.Remove(posiadacz);
+        return rachunek;
+    }
+
+    public override string ToString(){
+        return $@"
+Numer rachunku: {Numer}
+Stan rachunku: {StanRachunku}
+Posiadacze rachunku: {string.Join(",\n", posiadaczeRachunku)}
+Transakcje: {string.Join(",\n", transakcje)}";
+    }
 }
