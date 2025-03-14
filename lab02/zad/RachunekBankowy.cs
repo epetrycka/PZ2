@@ -77,10 +77,9 @@ public class RachunekBankowy{
     }
 
     public override string ToString(){
-        return $@"
-Numer rachunku: {Numer}
-Stan rachunku: {StanRachunku}
-Posiadacze rachunku: {string.Join(",\n", posiadaczeRachunku)}
-Transakcje: {string.Join(",\n", transakcje)}";
+        return $@"Numer rachunku: {Numer}
+        Stan rachunku: {StanRachunku}
+        Posiadacze rachunku: {string.Join(",\n", PosiadaczeRachunku)}
+        Transakcje: {string.Join(",\n", Transakcje)}";
     }
 }

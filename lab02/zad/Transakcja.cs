@@ -27,11 +27,9 @@ public class Transakcja{
     }
 
     public override string ToString(){
-        return 
-$@"Numer rachunku zrodlowego: {RachunekZrodlowy?.Numer ?? "Brak danych"} 
-Numer rachunku docelowego: {RachunekDocelowy?.Numer ?? "Brak danych"} 
-Kwota transakcji: {Kwota}
-Opis transakcji: {Opis}";
-
+        return $@"Numer rachunku zrodlowego: {RachunekZrodlowy?.Numer ?? "Brak danych"} 
+        Numer rachunku docelowego: {RachunekDocelowy?.Numer ?? "Brak danych"} 
+        Kwota transakcji: {Kwota}
+        Opis transakcji: {Opis}";
     }
 }
