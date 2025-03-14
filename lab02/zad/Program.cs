@@ -55,7 +55,5 @@ class Program
         {
             Console.WriteLine($"{transakcja.Opis}: {transakcja.Kwota} zł");
         }
-
-        Console.WriteLine("\n=== Koniec testów ===");
     }
 }
