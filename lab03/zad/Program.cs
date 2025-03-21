@@ -18,7 +18,6 @@ public class Tweet
     public string TweetEmbedCode { get; set; }
 }
 
-
 class Program
 {
     static void Main()
@@ -36,6 +35,15 @@ class Program
         
         Console.WriteLine($"Oldest Tweet: {sortedByDate.First().Text}");
         Console.WriteLine($"Newest Tweet: {sortedByDate.Last().Text}");
+
+        var sortedTweets = SortTweetsByUserName(tweets);
+        var sortedUsers = SortUsersByFirstTweetDate(tweets);
+
+        Console.WriteLine("Top 5 users sorted by first tweet date:");
+        foreach (var user in sortedUsers.Take(5))
+        {
+            Console.WriteLine(user);
+        }
         
         var tweetsByUser = tweets.GroupBy(t => t.UserName).ToDictionary(g => g.Key, g => g.ToList());
         
@@ -78,7 +86,6 @@ class Program
                             "MMMM dd, yyyy 'at' hh:mmtt",
                             CultureInfo.InvariantCulture)
             };
-
             tweets.Add(tweet);
         }
         return tweets;
@@ -105,6 +112,20 @@ class Program
             LinkToTweet = t.Element("LinkToTweet")?.Value,
             CreatedAt = DateTime.Parse(t.Element("CreatedAt")?.Value)
         }).ToList();
+    }
+
+    static List<Tweet> SortTweetsByUserName(List<Tweet> tweets)
+    {
+        return tweets.OrderBy(t => t.UserName).ToList();
+    }
+
+    static List<string> SortUsersByFirstTweetDate(List<Tweet> tweets)
+    {
+        return tweets.GroupBy(t => t.UserName)
+                    .Select(g => new { UserName = g.Key, FirstTweetDate = g.Min(t => t.CreatedAt) })
+                    .OrderBy(u => u.FirstTweetDate)
+                    .Select(u => u.UserName)
+                    .ToList();
     }
 
     static Dictionary<string, int> CalculateWordFrequencies(List<Tweet> tweets)
@@ -153,5 +174,4 @@ class Program
 
         return idfScores;
     }
-
 }
