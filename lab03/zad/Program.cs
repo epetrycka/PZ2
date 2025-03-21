@@ -33,24 +33,18 @@ class Program
         var sortedByUser = tweets.OrderBy(t => t.UserName).ToList();
         var sortedByDate = tweets.OrderBy(t => t.CreatedAt).ToList();
         
-        Console.WriteLine($"Oldest Tweet: {sortedByDate.First().Text}");
-        Console.WriteLine($"Newest Tweet: {sortedByDate.Last().Text}");
+        Console.WriteLine($"\nOldest Tweet: {sortedByDate.First().Text}\n");
+        Console.WriteLine($"\nNewest Tweet: {sortedByDate.Last().Text}\n");
 
         var sortedTweets = SortTweetsByUserName(tweets);
         var sortedUsers = SortUsersByFirstTweetDate(tweets);
-
-        Console.WriteLine("Top 5 users sorted by first tweet date:");
-        foreach (var user in sortedUsers.Take(5))
-        {
-            Console.WriteLine(user);
-        }
         
         var tweetsByUser = tweets.GroupBy(t => t.UserName).ToDictionary(g => g.Key, g => g.ToList());
         
         var wordFrequencies = CalculateWordFrequencies(tweets);
         var topWords = wordFrequencies.Where(w => w.Key.Length >= 5).OrderByDescending(w => w.Value).Take(10);
         
-        Console.WriteLine("Top 10 most frequent words with at least 5 letters:");
+        Console.WriteLine("\nTop 10 most frequent words with at least 5 letters:\n");
         foreach (var word in topWords)
         {
             Console.WriteLine($"{word.Key}: {word.Value}");
@@ -58,7 +52,7 @@ class Program
         var idfScores = CalculateIDF(tweets);
         var topIDFWords = idfScores.OrderByDescending(kvp => kvp.Value).Take(10);
 
-        Console.WriteLine("Top 10 words with highest IDF:");
+        Console.WriteLine("\nTop 10 words with highest IDF:\n");
         foreach (var word in topIDFWords)
         {
             Console.WriteLine($"{word.Key}: {word.Value:F4}");
