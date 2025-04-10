@@ -1,0 +1,15 @@
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab06\zad1\serwer\obj\Debug\net7.0\serwer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab06\zad1\serwer\obj\Debug\net7.0\serwer.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab06\zad1\serwer\obj\Debug\net7.0\serwer.AssemblyInfo.cs
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab06\zad1\serwer\obj\Debug\net7.0\serwer.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab06\zad1\serwer\obj\Debug\net7.0\serwer.sourcelink.json
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab06\zad1\serwer\bin\Debug\net7.0\serwer.exe
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab06\zad1\serwer\bin\Debug\net7.0\serwer.deps.json
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab06\zad1\serwer\bin\Debug\net7.0\serwer.runtimeconfig.json
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab06\zad1\serwer\bin\Debug\net7.0\serwer.dll
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab06\zad1\serwer\bin\Debug\net7.0\serwer.pdb
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab06\zad1\serwer\obj\Debug\net7.0\serwer.dll
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab06\zad1\serwer\obj\Debug\net7.0\refint\serwer.dll
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab06\zad1\serwer\obj\Debug\net7.0\serwer.pdb
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab06\zad1\serwer\obj\Debug\net7.0\serwer.genruntimeconfig.cache
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab06\zad1\serwer\obj\Debug\net7.0\ref\serwer.dll

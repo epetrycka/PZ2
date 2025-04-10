@@ -1,0 +1,15 @@
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab06\zad3\klient\bin\Debug\net7.0\klient.exe
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab06\zad3\klient\bin\Debug\net7.0\klient.deps.json
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab06\zad3\klient\bin\Debug\net7.0\klient.runtimeconfig.json
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab06\zad3\klient\bin\Debug\net7.0\klient.dll
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab06\zad3\klient\bin\Debug\net7.0\klient.pdb
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab06\zad3\klient\obj\Debug\net7.0\klient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab06\zad3\klient\obj\Debug\net7.0\klient.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab06\zad3\klient\obj\Debug\net7.0\klient.AssemblyInfo.cs
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab06\zad3\klient\obj\Debug\net7.0\klient.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab06\zad3\klient\obj\Debug\net7.0\klient.sourcelink.json
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab06\zad3\klient\obj\Debug\net7.0\klient.dll
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab06\zad3\klient\obj\Debug\net7.0\refint\klient.dll
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab06\zad3\klient\obj\Debug\net7.0\klient.pdb
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab06\zad3\klient\obj\Debug\net7.0\klient.genruntimeconfig.cache
+C:\Users\User\OneDrive\Dokumenty\PZ2\lab06\zad3\klient\obj\Debug\net7.0\ref\klient.dll
