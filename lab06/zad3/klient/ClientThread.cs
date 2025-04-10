@@ -74,7 +74,6 @@ public class ClientThread{
 
     public void SendMessage(string data){
         Thread.Sleep(50);
-        Console.WriteLine(this.Name + ": sending message " + data.Length.ToString());
         var encodedSize = Encoding.UTF8.GetBytes(data.Length.ToString());
         clientSocket.Send(encodedSize, 0);
         Thread.Sleep(100);

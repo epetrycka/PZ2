@@ -83,7 +83,7 @@ public class Server{
         Console.WriteLine($"Received message: {data}");
         if (data == "!end"){
             client.KillThread();
-            this.Kill();
+            this.EndClient(client);
         }
         else if (data == "list"){
             BlockingCollection<string> foundFiles = new BlockingCollection<string>();
@@ -121,7 +121,6 @@ public class Server{
 
                         if (parentDir != null) {
                             string currentDir = parentDir;
-                            Console.WriteLine($"Wchodzę do katalogu nadrzędnego: {currentDir}");
 
                             var foundEntries = Directory.EnumerateFileSystemEntries(currentDir);
                             foreach (var entry in foundEntries) {
@@ -137,7 +136,6 @@ public class Server{
 
                         if (Directory.Exists(potentialDir)) {
                             string currentDir = potentialDir;
-                            Console.WriteLine($"Wchodzę do katalogu: {currentDir}");
                             
                             var foundEntries = Directory.EnumerateFileSystemEntries(currentDir);
                             foreach (var entry in foundEntries) {
@@ -150,7 +148,7 @@ public class Server{
                     }
                 }
                 catch (Exception e) {
-                    Console.WriteLine($"Błąd: {e.Message}");
+                    Console.WriteLine($"Error: {e.Message}");
                 }
                 finally {
                     foundFiles.CompleteAdding();
@@ -162,7 +160,7 @@ public class Server{
             client.SendMessage(string.Join(", \n", foundFiles));
         }
         else {
-            client.SendMessage("nieznane polecenie");
+            client.SendMessage("unexpected command");
         }
     }
 
