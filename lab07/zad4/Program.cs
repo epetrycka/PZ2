@@ -7,7 +7,7 @@ class Program{
             Console.WriteLine("4 Arguments are required:\n"
                                 + "filename_a - (0) data to encode | (1) data to decode\n"
                                 + "filename_b - file to write the programme output\n"
-                                + "password - password to hash the data\n"
+                                + "password - password to hash the data (at least 8 letter/numbers)\n"
                                 + "command type - 0 (encoding) | 1 (decoding)");
             return;
         }
@@ -48,7 +48,13 @@ class Program{
                 {
                     UnicodeEncoding byteConverter = new UnicodeEncoding();
                     byte[] key = byteConverter.GetBytes(password);
-                    aes.Key = key;
+                    try{
+                        aes.Key = key;
+                    }
+                    catch (CryptographicException ce){
+                        Console.WriteLine("Password must be at least 8 letters long.\n", ce);
+                        return;
+                    }
 
                     byte[] iv = aes.IV;
                     fileStream.Write(iv, 0, iv.Length);
