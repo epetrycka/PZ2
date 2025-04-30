@@ -1,0 +1,201 @@
+imie,kategoria,wiek,schronisko,co_lubi,dieta
+Miluś,kotek,12,Fundacja Zwierzaki Poznań,spacery,dieta BARF
+Puszek,kotek,1,Schronisko Kraków,drapanie po brzuszku,mokra karma
+Azor,kotek,13,Azyl Warszawa,gonienie piłki,mięsna
+Tofik,kotek,8,Dom Tymczasowy Gdańsk,spacery,mokra karma
+Azor,piesek,14,Dom Tymczasowy Gdańsk,spacery,dieta BARF
+Miluś,piesek,15,Azyl Warszawa,leżenie na słońcu,dieta BARF
+Reksio,piesek,14,Azyl Warszawa,leżenie na słońcu,mięsna
+Reksio,piesek,14,Azyl Warszawa,głaskanie,mięsna
+Azor,kotek,3,Dom Tymczasowy Gdańsk,spacery,wegetariańska
+Fafik,piesek,13,Fundacja Zwierzaki Poznań,głaskanie,mokra karma
+Reksio,piesek,12,Schronisko Kraków,leżenie na słońcu,wegetariańska
+Tofik,piesek,15,Dom Tymczasowy Gdańsk,gonienie piłki,sucha karma
+Puszek,kotek,10,Fundacja Zwierzaki Poznań,głaskanie,dieta BARF
+Fafik,kotek,13,Fundacja Zwierzaki Poznań,głaskanie,sucha karma
+Luna,kotek,14,Fundacja Zwierzaki Poznań,drapanie po brzuszku,dieta BARF
+Fafik,piesek,1,Schronisko Kraków,głaskanie,wegetariańska
+Kicia,piesek,3,Dom Tymczasowy Gdańsk,drapanie po brzuszku,dieta BARF
+Mruczek,piesek,2,Dom Tymczasowy Gdańsk,drapanie po brzuszku,mokra karma
+Bella,kotek,5,Fundacja Zwierzaki Poznań,drapanie po brzuszku,mięsna
+Mruczek,kotek,13,Fundacja Zwierzaki Poznań,gonienie piłki,mokra karma
+Fafik,piesek,15,Dom Tymczasowy Gdańsk,spacery,mięsna
+Mruczek,kotek,13,Azyl Warszawa,drapanie po brzuszku,mięsna
+Puszek,piesek,12,Schronisko Kraków,głaskanie,mięsna
+Bella,piesek,14,Fundacja Zwierzaki Poznań,spacery,dieta BARF
+Kicia,piesek,5,Schronisko Kraków,drapanie po brzuszku,wegetariańska
+Puszek,kotek,8,Fundacja Zwierzaki Poznań,gonienie piłki,wegetariańska
+Luna,kotek,15,Dom Tymczasowy Gdańsk,leżenie na słońcu,sucha karma
+Reksio,piesek,4,Schronisko Kraków,leżenie na słońcu,mięsna
+Mruczek,kotek,6,Azyl Warszawa,głaskanie,mięsna
+Reksio,piesek,3,Schronisko Kraków,głaskanie,sucha karma
+Luna,piesek,3,Schronisko Kraków,gonienie piłki,dieta BARF
+Bella,kotek,15,Schronisko Kraków,leżenie na słońcu,mokra karma
+Mruczek,kotek,11,Azyl Warszawa,głaskanie,mięsna
+Fafik,kotek,6,Schronisko Kraków,głaskanie,mokra karma
+Bella,kotek,1,Dom Tymczasowy Gdańsk,drapanie po brzuszku,wegetariańska
+Luna,kotek,12,Dom Tymczasowy Gdańsk,spacery,mięsna
+Reksio,piesek,13,Fundacja Zwierzaki Poznań,drapanie po brzuszku,mięsna
+Luna,piesek,9,Schronisko Kraków,spacery,mięsna
+Miluś,kotek,4,Azyl Warszawa,leżenie na słońcu,wegetariańska
+Miluś,piesek,12,Fundacja Zwierzaki Poznań,gonienie piłki,sucha karma
+Puszek,kotek,4,Azyl Warszawa,spacery,dieta BARF
+Tofik,piesek,1,Azyl Warszawa,głaskanie,mięsna
+Azor,kotek,9,Azyl Warszawa,głaskanie,sucha karma
+Mruczek,piesek,13,Fundacja Zwierzaki Poznań,leżenie na słońcu,mokra karma
+Miluś,kotek,3,Schronisko Kraków,spacery,sucha karma
+Miluś,piesek,2,Schronisko Kraków,głaskanie,wegetariańska
+Tofik,piesek,2,Schronisko Kraków,leżenie na słońcu,sucha karma
+Bella,kotek,1,Schronisko Kraków,spacery,wegetariańska
+Puszek,piesek,6,Schronisko Kraków,gonienie piłki,mięsna
+Fafik,piesek,13,Schronisko Kraków,leżenie na słońcu,sucha karma
+Fafik,piesek,1,Fundacja Zwierzaki Poznań,leżenie na słońcu,dieta BARF
+Miluś,piesek,7,Azyl Warszawa,drapanie po brzuszku,sucha karma
+Luna,kotek,4,Azyl Warszawa,spacery,wegetariańska
+Reksio,kotek,4,Azyl Warszawa,gonienie piłki,dieta BARF
+Mruczek,piesek,9,Fundacja Zwierzaki Poznań,spacery,wegetariańska
+Reksio,kotek,11,Azyl Warszawa,spacery,mięsna
+Kicia,piesek,3,Schronisko Kraków,leżenie na słońcu,mokra karma
+Puszek,kotek,5,Azyl Warszawa,gonienie piłki,dieta BARF
+Puszek,kotek,8,Dom Tymczasowy Gdańsk,drapanie po brzuszku,wegetariańska
+Miluś,kotek,6,Schronisko Kraków,leżenie na słońcu,sucha karma
+Luna,kotek,15,Schronisko Kraków,głaskanie,mięsna
+Mruczek,kotek,6,Schronisko Kraków,gonienie piłki,sucha karma
+Mruczek,kotek,13,Schronisko Kraków,drapanie po brzuszku,dieta BARF
+Bella,kotek,1,Fundacja Zwierzaki Poznań,drapanie po brzuszku,dieta BARF
+Reksio,kotek,8,Schronisko Kraków,spacery,wegetariańska
+Luna,piesek,15,Schronisko Kraków,spacery,dieta BARF
+Miluś,kotek,14,Dom Tymczasowy Gdańsk,drapanie po brzuszku,wegetariańska
+Puszek,piesek,1,Dom Tymczasowy Gdańsk,leżenie na słońcu,mokra karma
+Kicia,kotek,14,Azyl Warszawa,drapanie po brzuszku,dieta BARF
+Miluś,kotek,7,Dom Tymczasowy Gdańsk,spacery,mięsna
+Puszek,piesek,6,Dom Tymczasowy Gdańsk,spacery,mokra karma
+Azor,kotek,14,Dom Tymczasowy Gdańsk,gonienie piłki,mokra karma
+Azor,piesek,5,Dom Tymczasowy Gdańsk,gonienie piłki,dieta BARF
+Reksio,piesek,14,Dom Tymczasowy Gdańsk,głaskanie,dieta BARF
+Mruczek,kotek,13,Azyl Warszawa,spacery,wegetariańska
+Puszek,kotek,5,Azyl Warszawa,drapanie po brzuszku,dieta BARF
+Puszek,piesek,4,Azyl Warszawa,głaskanie,wegetariańska
+Miluś,piesek,1,Schronisko Kraków,leżenie na słońcu,dieta BARF
+Miluś,piesek,3,Schronisko Kraków,gonienie piłki,mokra karma
+Azor,kotek,1,Fundacja Zwierzaki Poznań,drapanie po brzuszku,mokra karma
+Tofik,kotek,10,Azyl Warszawa,głaskanie,wegetariańska
+Tofik,piesek,2,Azyl Warszawa,leżenie na słońcu,mokra karma
+Azor,kotek,2,Fundacja Zwierzaki Poznań,leżenie na słońcu,sucha karma
+Puszek,piesek,2,Dom Tymczasowy Gdańsk,gonienie piłki,mokra karma
+Kicia,piesek,2,Fundacja Zwierzaki Poznań,gonienie piłki,wegetariańska
+Kicia,piesek,2,Fundacja Zwierzaki Poznań,głaskanie,mokra karma
+Puszek,kotek,14,Dom Tymczasowy Gdańsk,gonienie piłki,mokra karma
+Miluś,kotek,6,Dom Tymczasowy Gdańsk,gonienie piłki,mięsna
+Fafik,kotek,6,Fundacja Zwierzaki Poznań,drapanie po brzuszku,wegetariańska
+Kicia,kotek,9,Azyl Warszawa,drapanie po brzuszku,wegetariańska
+Puszek,kotek,15,Dom Tymczasowy Gdańsk,leżenie na słońcu,dieta BARF
+Azor,kotek,1,Schronisko Kraków,drapanie po brzuszku,mięsna
+Kicia,kotek,9,Dom Tymczasowy Gdańsk,gonienie piłki,mięsna
+Tofik,piesek,7,Fundacja Zwierzaki Poznań,głaskanie,dieta BARF
+Fafik,kotek,15,Schronisko Kraków,spacery,mokra karma
+Mruczek,piesek,13,Fundacja Zwierzaki Poznań,spacery,dieta BARF
+Reksio,piesek,15,Schronisko Kraków,leżenie na słońcu,dieta BARF
+Kicia,kotek,14,Dom Tymczasowy Gdańsk,leżenie na słońcu,mokra karma
+Azor,piesek,9,Fundacja Zwierzaki Poznań,leżenie na słońcu,sucha karma
+Puszek,piesek,5,Dom Tymczasowy Gdańsk,głaskanie,dieta BARF
+Luna,piesek,4,Dom Tymczasowy Gdańsk,leżenie na słońcu,dieta BARF
+Bella,kotek,6,Fundacja Zwierzaki Poznań,głaskanie,dieta BARF
+Luna,kotek,11,Dom Tymczasowy Gdańsk,drapanie po brzuszku,sucha karma
+Luna,piesek,14,Schronisko Kraków,drapanie po brzuszku,wegetariańska
+Luna,piesek,9,Dom Tymczasowy Gdańsk,leżenie na słońcu,wegetariańska
+Miluś,piesek,15,Fundacja Zwierzaki Poznań,spacery,sucha karma
+Puszek,piesek,8,Fundacja Zwierzaki Poznań,gonienie piłki,dieta BARF
+Puszek,piesek,4,Schronisko Kraków,gonienie piłki,mięsna
+Mruczek,piesek,5,Fundacja Zwierzaki Poznań,spacery,mięsna
+Miluś,piesek,9,Azyl Warszawa,leżenie na słońcu,wegetariańska
+Tofik,piesek,3,Schronisko Kraków,głaskanie,mięsna
+Miluś,kotek,2,Fundacja Zwierzaki Poznań,spacery,sucha karma
+Reksio,kotek,7,Azyl Warszawa,gonienie piłki,mokra karma
+Azor,kotek,7,Dom Tymczasowy Gdańsk,spacery,mięsna
+Azor,kotek,10,Dom Tymczasowy Gdańsk,spacery,sucha karma
+Fafik,piesek,12,Azyl Warszawa,leżenie na słońcu,sucha karma
+Puszek,kotek,10,Schronisko Kraków,leżenie na słońcu,sucha karma
+Kicia,kotek,2,Schronisko Kraków,głaskanie,wegetariańska
+Miluś,kotek,15,Dom Tymczasowy Gdańsk,spacery,sucha karma
+Reksio,kotek,4,Fundacja Zwierzaki Poznań,gonienie piłki,mięsna
+Reksio,piesek,8,Schronisko Kraków,leżenie na słońcu,mokra karma
+Puszek,piesek,4,Schronisko Kraków,spacery,sucha karma
+Azor,piesek,10,Fundacja Zwierzaki Poznań,gonienie piłki,sucha karma
+Miluś,piesek,3,Schronisko Kraków,spacery,mięsna
+Azor,kotek,5,Fundacja Zwierzaki Poznań,leżenie na słońcu,wegetariańska
+Mruczek,kotek,11,Azyl Warszawa,drapanie po brzuszku,wegetariańska
+Miluś,piesek,15,Azyl Warszawa,drapanie po brzuszku,sucha karma
+Fafik,kotek,11,Dom Tymczasowy Gdańsk,głaskanie,wegetariańska
+Kicia,piesek,5,Fundacja Zwierzaki Poznań,leżenie na słońcu,mięsna
+Azor,piesek,13,Schronisko Kraków,drapanie po brzuszku,wegetariańska
+Bella,piesek,1,Fundacja Zwierzaki Poznań,gonienie piłki,dieta BARF
+Luna,kotek,5,Fundacja Zwierzaki Poznań,leżenie na słońcu,mokra karma
+Puszek,piesek,14,Dom Tymczasowy Gdańsk,gonienie piłki,dieta BARF
+Kicia,kotek,9,Fundacja Zwierzaki Poznań,spacery,mięsna
+Fafik,kotek,5,Azyl Warszawa,głaskanie,mokra karma
+Mruczek,piesek,10,Azyl Warszawa,głaskanie,mokra karma
+Azor,piesek,4,Fundacja Zwierzaki Poznań,leżenie na słońcu,mięsna
+Miluś,kotek,10,Azyl Warszawa,głaskanie,sucha karma
+Miluś,kotek,4,Dom Tymczasowy Gdańsk,leżenie na słońcu,mięsna
+Fafik,kotek,1,Dom Tymczasowy Gdańsk,drapanie po brzuszku,sucha karma
+Luna,kotek,14,Schronisko Kraków,leżenie na słońcu,wegetariańska
+Tofik,piesek,14,Azyl Warszawa,głaskanie,dieta BARF
+Mruczek,piesek,5,Schronisko Kraków,gonienie piłki,mięsna
+Bella,piesek,10,Azyl Warszawa,gonienie piłki,dieta BARF
+Reksio,piesek,6,Fundacja Zwierzaki Poznań,leżenie na słońcu,sucha karma
+Azor,kotek,6,Azyl Warszawa,głaskanie,dieta BARF
+Mruczek,kotek,8,Dom Tymczasowy Gdańsk,drapanie po brzuszku,mokra karma
+Puszek,piesek,13,Azyl Warszawa,drapanie po brzuszku,mokra karma
+Reksio,kotek,12,Dom Tymczasowy Gdańsk,gonienie piłki,wegetariańska
+Luna,piesek,1,Azyl Warszawa,gonienie piłki,sucha karma
+Kicia,kotek,8,Dom Tymczasowy Gdańsk,drapanie po brzuszku,mokra karma
+Miluś,piesek,7,Schronisko Kraków,głaskanie,dieta BARF
+Kicia,piesek,13,Fundacja Zwierzaki Poznań,leżenie na słońcu,mokra karma
+Azor,kotek,12,Dom Tymczasowy Gdańsk,gonienie piłki,dieta BARF
+Kicia,kotek,5,Fundacja Zwierzaki Poznań,głaskanie,wegetariańska
+Reksio,kotek,2,Dom Tymczasowy Gdańsk,drapanie po brzuszku,sucha karma
+Tofik,piesek,4,Dom Tymczasowy Gdańsk,drapanie po brzuszku,mięsna
+Tofik,piesek,12,Schronisko Kraków,gonienie piłki,mokra karma
+Tofik,kotek,12,Fundacja Zwierzaki Poznań,drapanie po brzuszku,mokra karma
+Tofik,piesek,4,Azyl Warszawa,spacery,dieta BARF
+Mruczek,kotek,6,Fundacja Zwierzaki Poznań,drapanie po brzuszku,wegetariańska
+Kicia,piesek,2,Schronisko Kraków,głaskanie,mięsna
+Mruczek,kotek,6,Fundacja Zwierzaki Poznań,leżenie na słońcu,dieta BARF
+Fafik,kotek,15,Dom Tymczasowy Gdańsk,spacery,dieta BARF
+Miluś,kotek,4,Schronisko Kraków,spacery,sucha karma
+Reksio,piesek,4,Schronisko Kraków,leżenie na słońcu,wegetariańska
+Tofik,kotek,1,Azyl Warszawa,drapanie po brzuszku,mokra karma
+Puszek,kotek,12,Fundacja Zwierzaki Poznań,głaskanie,sucha karma
+Puszek,piesek,5,Azyl Warszawa,głaskanie,mięsna
+Puszek,piesek,5,Azyl Warszawa,głaskanie,wegetariańska
+Luna,piesek,15,Azyl Warszawa,głaskanie,dieta BARF
+Kicia,kotek,6,Azyl Warszawa,głaskanie,wegetariańska
+Kicia,piesek,7,Azyl Warszawa,spacery,sucha karma
+Azor,piesek,3,Fundacja Zwierzaki Poznań,gonienie piłki,sucha karma
+Luna,kotek,12,Azyl Warszawa,spacery,dieta BARF
+Reksio,piesek,12,Fundacja Zwierzaki Poznań,gonienie piłki,mięsna
+Mruczek,piesek,2,Dom Tymczasowy Gdańsk,leżenie na słońcu,sucha karma
+Reksio,piesek,12,Schronisko Kraków,gonienie piłki,mięsna
+Tofik,kotek,10,Schronisko Kraków,głaskanie,mokra karma
+Miluś,kotek,4,Schronisko Kraków,leżenie na słońcu,wegetariańska
+Kicia,piesek,15,Azyl Warszawa,leżenie na słońcu,sucha karma
+Reksio,piesek,6,Dom Tymczasowy Gdańsk,gonienie piłki,mięsna
+Mruczek,piesek,1,Fundacja Zwierzaki Poznań,leżenie na słońcu,mokra karma
+Luna,kotek,6,Azyl Warszawa,gonienie piłki,dieta BARF
+Mruczek,piesek,2,Schronisko Kraków,spacery,mokra karma
+Kicia,piesek,12,Dom Tymczasowy Gdańsk,gonienie piłki,wegetariańska
+Miluś,kotek,12,Schronisko Kraków,leżenie na słońcu,mokra karma
+Fafik,kotek,6,Fundacja Zwierzaki Poznań,drapanie po brzuszku,wegetariańska
+Luna,piesek,11,Fundacja Zwierzaki Poznań,głaskanie,sucha karma
+Mruczek,kotek,12,Dom Tymczasowy Gdańsk,drapanie po brzuszku,mięsna
+Miluś,piesek,6,Azyl Warszawa,gonienie piłki,wegetariańska
+Mruczek,kotek,6,Schronisko Kraków,drapanie po brzuszku,dieta BARF
+Luna,piesek,6,Schronisko Kraków,głaskanie,mięsna
+Luna,kotek,11,Schronisko Kraków,drapanie po brzuszku,dieta BARF
+Kicia,piesek,9,Fundacja Zwierzaki Poznań,drapanie po brzuszku,mokra karma
+Luna,kotek,12,Azyl Warszawa,drapanie po brzuszku,wegetariańska
+Tofik,piesek,1,Schronisko Kraków,spacery,sucha karma
+Azor,piesek,1,Fundacja Zwierzaki Poznań,leżenie na słońcu,mięsna
+Miluś,piesek,13,Dom Tymczasowy Gdańsk,drapanie po brzuszku,sucha karma
+Kicia,piesek,8,Dom Tymczasowy Gdańsk,spacery,mięsna
