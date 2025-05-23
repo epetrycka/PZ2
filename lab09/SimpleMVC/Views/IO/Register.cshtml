@@ -1,0 +1,27 @@
+@{
+    ViewData["Title"] = "Rejestracja";
+}
+
+<h2>Rejestracja</h2>
+
+@if (ViewData["error"] != null)
+{
+    <div class="alert alert-danger">@ViewData["error"]</div>
+}
+@if (ViewData["success"] != null)
+{
+    <div class="alert alert-success">@ViewData["success"]</div>
+}
+
+<p>Podaj imię, login i hasło</p>
+
+<form asp-action="Register" method="post">
+    <input name="name" id="name" placeholder="name" class="form-control" />
+    <br/>
+    <input name="login" id="login" placeholder="login" class="form-control" />
+    <br/>
+    <input name="haslo" id="haslo" placeholder="haslo" type="password" class="form-control" />
+    <br/>
+    <input type="submit" value="Zarejestruj" class="btn btn-primary" />
+    <br/>
+</form>

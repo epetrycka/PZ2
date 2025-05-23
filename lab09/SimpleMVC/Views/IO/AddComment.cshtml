@@ -1,0 +1,22 @@
+@{
+    ViewData["Title"] = "Dodaj komentarz";
+}
+
+<h2>Dodaj komentarz</h2>
+
+@if (ViewData["error"] != null)
+{
+    <div class="alert alert-danger">@ViewData["error"]</div>
+}
+@if (ViewData["success"] != null)
+{
+    <div class="alert alert-success">@ViewData["success"]</div>
+}
+
+<p>Wpisz treść komentarza</p>
+
+<form asp-action="AddComment" method="post">
+    <input name="comment" id="comment" placeholder="comment" class="form-control" />
+    <br/>
+    <input type="submit" value="Dodaj" class="btn btn-primary" />
+</form>

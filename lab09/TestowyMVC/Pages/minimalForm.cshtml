@@ -1,0 +1,8 @@
+@page
+@addTagHelper*, Microsoft.AspNetCore.Mvc.TagHelpers
+@model MinimalForm
+<form method="post">
+    <input type="text" id="txtmojtekst" name="mojtekst"/>
+    <input type="submit" value="Submit" asp-page-handler="Submit"/>
+    @Model.mojtekst
+</form>

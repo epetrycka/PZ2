@@ -1,0 +1,16 @@
+
+<h2>Dane do wyświetlania</h2>
+
+<ul>
+    @for (int i = 0; i < (int)ViewData["Ile"]!; i++)
+    {
+        <li>@ViewData["Wiadomosc"]</li>
+    }
+    
+    @{
+        //kod C#
+        ViewData["Ile"] = (int)ViewData["Ile"] + 10;
+    }
+    
+    @ViewData["Ile"]
+</ul>
