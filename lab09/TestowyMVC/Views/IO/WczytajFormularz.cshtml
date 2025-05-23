@@ -1,0 +1,13 @@
+
+@ViewData["dane"]
+
+<form asp-action="WczytajFormularz">
+    <input name="dane" id="dane" class="form-control" />
+    <input type="submit" value="WczytajFormularz" class="btn btn-primary" />
+</form>
+
+
+@* @if (Context.Session.GetString("moj_klucz") != null && Context.Session.GetString("moj_klucz") == "jakas wartosc")
+{
+    Klucz jest w sesji!
+} *@
