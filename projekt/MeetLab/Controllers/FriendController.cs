@@ -85,11 +85,14 @@ public class FriendController : Controller
                 (f.Sender == nickname && f.Receiver == currentUserNick)
             );
 
+        var userProfile = _context.UserProfiles.FirstOrDefault(u => u.NickName == nickname) ?? null;
+
         var model = new MeetLab.Models.ViewModels.FriendDetailViewModel
         {
             Friend = friend,
             CurrentUserNick = currentUserNick,
-            ExistingFriendship = existingFriendship
+            ExistingFriendship = existingFriendship,
+            UserProfile = userProfile
         };
 
         return View(model);
