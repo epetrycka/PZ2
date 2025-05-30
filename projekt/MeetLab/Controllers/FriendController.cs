@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
 using MeetLab.Models;
-using System.Linq;
 using Microsoft.EntityFrameworkCore;
 
 namespace MeetLab.Controllers;
@@ -30,9 +29,20 @@ public class FriendController : Controller
 
         var friends = currentUser.Friends.ToList();
 
+        var pendingFriendships = _context.Friendship
+            .Where(f => f.Receiver == currentUserNick && f.Status == Status.SENT)
+            .Join(_context.Users,
+                f => f.Sender,
+                u => u.NickName,
+                (f, u) => new { Friendship = f, Sender = u })
+            .ToList()
+            .Select(p => (p.Friendship, p.Sender))
+            .ToList();
+
         var viewModel = new MeetLab.Models.ViewModels.UserFriendsViewModel
         {
-            Friends = friends
+            Friends = friends,
+            PendingFriendRequests = pendingFriendships
         };
 
         return View(viewModel);

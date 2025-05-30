@@ -6,7 +6,7 @@
 
 <div class="card" style="max-width: 500px; margin: auto; margin-top: 50px;">
     <div class="card-header bg-info text-white">
-        <h4 class="mb-0">Szczegóły znajomego</h4>
+        <h4 class="mb-0">Szczegóły użytkownika</h4>
     </div>
     <div class="card-body">
         <table class="table table-bordered">
@@ -27,6 +27,9 @@
         @if (Model.UserProfile == null)
         {
             <p>Nie masz jeszcze profilu</p>
+        }
+        else if (Model.ExistingFriendship == null){
+            <p>Profil prywatny</p>
         }
         else
         {

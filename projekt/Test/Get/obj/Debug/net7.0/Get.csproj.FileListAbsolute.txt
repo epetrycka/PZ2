@@ -1,0 +1,15 @@
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Get\bin\Debug\net7.0\Get.exe
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Get\bin\Debug\net7.0\Get.deps.json
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Get\bin\Debug\net7.0\Get.runtimeconfig.json
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Get\bin\Debug\net7.0\Get.dll
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Get\bin\Debug\net7.0\Get.pdb
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Get\obj\Debug\net7.0\Get.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Get\obj\Debug\net7.0\Get.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Get\obj\Debug\net7.0\Get.AssemblyInfo.cs
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Get\obj\Debug\net7.0\Get.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Get\obj\Debug\net7.0\Get.sourcelink.json
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Get\obj\Debug\net7.0\Get.dll
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Get\obj\Debug\net7.0\refint\Get.dll
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Get\obj\Debug\net7.0\Get.pdb
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Get\obj\Debug\net7.0\Get.genruntimeconfig.cache
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Get\obj\Debug\net7.0\ref\Get.dll

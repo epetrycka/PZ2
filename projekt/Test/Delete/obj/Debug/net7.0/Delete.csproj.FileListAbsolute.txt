@@ -1,0 +1,15 @@
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Delete\obj\Debug\net7.0\Delete.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Delete\obj\Debug\net7.0\Delete.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Delete\obj\Debug\net7.0\Delete.AssemblyInfo.cs
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Delete\obj\Debug\net7.0\Delete.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Delete\obj\Debug\net7.0\Delete.sourcelink.json
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Delete\bin\Debug\net7.0\Delete.exe
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Delete\bin\Debug\net7.0\Delete.deps.json
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Delete\bin\Debug\net7.0\Delete.runtimeconfig.json
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Delete\bin\Debug\net7.0\Delete.dll
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Delete\bin\Debug\net7.0\Delete.pdb
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Delete\obj\Debug\net7.0\Delete.dll
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Delete\obj\Debug\net7.0\refint\Delete.dll
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Delete\obj\Debug\net7.0\Delete.pdb
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Delete\obj\Debug\net7.0\Delete.genruntimeconfig.cache
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Delete\obj\Debug\net7.0\ref\Delete.dll

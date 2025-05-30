@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using MeetLab.Data;
 using MeetLab.Models;
-using Microsoft.EntityFrameworkCore;
 
 namespace MeetLab.Controllers
 {
