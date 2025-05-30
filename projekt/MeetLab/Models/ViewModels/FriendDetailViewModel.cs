@@ -6,4 +6,5 @@ public class FriendDetailViewModel
     public string CurrentUserNick { get; set; }
     public Friendship? ExistingFriendship { get; set; }
     public UserProfile UserProfile { get; set; }
+    public bool AreFriends { get; set; }
 }
