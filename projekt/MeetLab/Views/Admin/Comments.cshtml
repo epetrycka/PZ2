@@ -1,0 +1,16 @@
+@* @model List<Dane>
+
+@{
+    ViewData["Title"] = "Lista komentarzy";
+}
+
+<h2>Komentarze użytkowników</h2>
+
+@foreach (var item in Model)
+{
+    <div class="card mb-3">
+        <div class="card-body">
+            <p class="card-text">@item.Tekst</p>
+        </div>
+    </div>
+} *@

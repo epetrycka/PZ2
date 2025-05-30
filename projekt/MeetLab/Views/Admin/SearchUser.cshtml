@@ -1,0 +1,44 @@
+@{
+    ViewData["Title"] = "Administracja";
+}
+
+@{
+    var allUsers = ViewData["AllUsers"] as List<string> ?? new List<string>();
+}
+
+<h2>Wyszukiwanie użytkowników</h2>
+
+@if (ViewData["error"] != null)
+{
+    <div class="alert alert-danger">@ViewData["error"]</div>
+}
+@if (ViewData["success"] != null)
+{
+    <div class="alert alert-success">@ViewData["success"]</div>
+}
+
+<p>Podaj nick</p>
+
+<form asp-action="SearchUser" method="post">
+    <input name="nickname" id="nickname" placeholder="nick" class="form-control" />
+    <br/>
+    <input type="submit" value="Search" class="btn btn-primary" />
+    <br/>
+</form>
+
+<hr></hr>
+
+@if (allUsers.Any())
+{
+    <h4>Lista użytkowników:</h4>
+    <ul>
+        @foreach (var userNick in allUsers)
+        {
+            <li>@userNick</li>
+        }
+    </ul>
+}
+else
+{
+    <p>Brak użytkowników do wyświetlenia.</p>
+}

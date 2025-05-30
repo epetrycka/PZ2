@@ -1,0 +1,14 @@
+@{
+    ViewBag.Title = "Brak dostępu";
+}
+
+<div style="max-width: 500px; margin: 100px auto; text-align: center; font-family: Arial, sans-serif;">
+    <h1 style="color: #d9534f;">⛔ Dostęp zabroniony</h1>
+    <p style="font-size: 1.2rem; margin: 20px 0;">
+        Nie masz uprawnień administratora, aby zobaczyć tę stronę.
+    </p>
+
+    <a href="@Url.Action("Index", "Home")" class="btn btn-primary" style="padding: 10px 25px; font-size: 1rem;">
+        Powrót do strony głównej
+    </a>
+</div>

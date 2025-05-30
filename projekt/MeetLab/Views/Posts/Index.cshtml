@@ -1,0 +1,49 @@
+@model List<MeetLab.Models.Post>
+
+@{
+    ViewData["Title"] = "Posty";
+}
+
+<h2>Posty użytkowników</h2>
+<a class="btn btn-primary mb-3" href="@Url.Action("Create", "Posts")">Dodaj post</a>
+
+@if (Model != null && Model.Any())
+{
+    @foreach (var post in Model)
+    {
+        <div class="card mb-4">
+            <div class="card-header">
+                <strong>@post.AuthorNick</strong> — @post.CreatedAt.ToString("g")
+            </div>
+            <div class="card-body">
+                <h5>@post.Title</h5>
+                <p>@post.Content</p>
+                @if (!string.IsNullOrEmpty(post.ImageUrl))
+                {
+                    <img src="@post.ImageUrl" class="img-fluid" style="max-width: 330px; height: auto;" />
+                }
+
+                <form asp-action="AddComment" method="post">
+                    <input type="hidden" name="postId" value="@post.Id" />
+                    <div class="input-group mt-2">
+                        <input type="text" name="text" class="form-control" placeholder="Dodaj komentarz..." />
+                        <button class="btn btn-secondary">Dodaj</button>
+                    </div>
+                </form>
+
+                <details class="mt-2">
+                    <summary>Zobacz komentarze</summary>
+                    <partial name="_CommentPartial" model="post.Comments" />
+                </details>
+            </div>
+        </div>
+    }
+
+    <footer style="height: 20px; background-color: #ffffff; text-align: center; padding: 2px 0;">
+        <small>© 2025 MeetLab</small>
+    </footer>
+}
+else
+{
+    <p>Nie masz żadnych postów od znajomych.</p>
+}

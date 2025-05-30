@@ -1,0 +1,25 @@
+@{
+    ViewData["Title"] = "Logowanie";
+}
+
+<h2>Logowanie</h2>
+
+@if (ViewData["error"] != null)
+{
+    <div class="alert alert-danger">@ViewData["error"]</div>
+}
+@if (ViewData["success"] != null)
+{
+    <div class="alert alert-success">@ViewData["success"]</div>
+}
+
+<p>Podaj login i hasło</p>
+
+<form asp-action="Login" method="post">
+    <input name="login" id="login" placeholder="login" class="form-control" />
+    <br/>
+    <input name="password" id="password" placeholder="password" type="password" class="form-control" />
+    <br/>
+    <input type="submit" value="Zaloguj" class="btn btn-primary" />
+    <br/>
+</form>
