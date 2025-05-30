@@ -16,6 +16,9 @@ namespace MeetLab.Data
         public DbSet<MeetLab.Models.Post> Posts { get; set; }
 
         public DbSet<MeetLab.Models.Comment> Comments { get; set; }
+
+        public DbSet<MeetLab.Models.UserProfile> UserProfiles { get; set; }
+
         //dotnet ef migrations add Update
         //dotnet ef database update
 

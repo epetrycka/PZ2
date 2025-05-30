@@ -160,9 +160,31 @@ namespace MeetLab.Migrations
                             NickName = "admin",
                             FirstName = "Admin",
                             Password = "E64B78FC3BC91BCBC7DC232BA8EC59E0",
-                            RegistrationDate = new DateTime(2025, 5, 30, 11, 15, 52, 846, DateTimeKind.Local).AddTicks(1616),
+                            RegistrationDate = new DateTime(2025, 5, 30, 11, 59, 26, 398, DateTimeKind.Local).AddTicks(7846),
                             Token = "Tly5g7BSn6dRHI0DdwJ63a3irvxsFN1qIwdzKypRAc0="
                         });
+                });
+
+            modelBuilder.Entity("MeetLab.Models.UserProfile", b =>
+                {
+                    b.Property<string>("NickName")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ProfileImageUrl")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Status")
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("NickName");
+
+                    b.ToTable("UserProfiles");
                 });
 
             modelBuilder.Entity("UserUser", b =>

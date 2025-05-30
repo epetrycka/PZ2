@@ -60,7 +60,8 @@ public class PostsController : Controller
                 image.CopyTo(stream);
             }
             post.ImageUrl = "/images/" + fileName;
-        } else
+        }
+        else
         {
             post.ImageUrl = null;
         }

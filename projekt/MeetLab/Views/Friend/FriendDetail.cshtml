@@ -24,6 +24,24 @@
             </tr>
         </table>
 
+        @if (Model.UserProfile == null)
+        {
+            <p>Nie masz jeszcze profilu</p>
+        }
+        else
+        {
+            <div>
+                @if (!string.IsNullOrEmpty(Model.UserProfile.ProfileImageUrl))
+                {
+                    <img src="@Model.UserProfile.ProfileImageUrl" alt="Profilowe" class="img-thumbnail" style="max-height: 200px;" />
+                }
+                <p><strong>Nick:</strong> @Model.UserProfile.NickName</p>
+                <p><strong>Status:</strong> @Model.UserProfile.Status</p>
+                <p><strong>Opis:</strong> @Model.UserProfile.Description</p>
+                <p><strong>Ostatnia edycja:</strong> @Model.UserProfile.UpdatedAt.ToString("g")</p>
+            </div>
+        }
+
         <div class="mt-3">
             @if (Model.ExistingFriendship != null)
             {
@@ -71,3 +89,6 @@
         </div>
     </div>
 </div>
+
+<footer style="height: 80px; background-color: #ffffff; text-align: center; padding: 2px 0;">
+</footer>

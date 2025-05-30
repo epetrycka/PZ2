@@ -1,0 +1,27 @@
+@model MeetLab.Models.UserProfile
+@{
+    ViewData["Title"] = "Mój profil";
+}
+
+<h2>Mój profil</h2>
+
+@if (Model == null)
+{
+    <p>Nie masz jeszcze profilu. <a href="/UserProfile/Edit">Utwórz teraz</a>.</p>
+}
+else
+{
+    <div>
+        @if (!string.IsNullOrEmpty(Model.ProfileImageUrl))
+        {
+            <img src="@Model.ProfileImageUrl" alt="Profilowe" class="img-thumbnail" style="max-height: 200px;" />
+        }
+        <p><strong>Nick:</strong> @Model.NickName</p>
+        <p><strong>Status:</strong> @Model.Status</p>
+        <p><strong>Opis:</strong> @Model.Description</p>
+        <p><strong>Ostatnia edycja:</strong> @Model.UpdatedAt.ToString("g")</p>
+
+        <a class="btn btn-primary" href="/UserProfile/Edit">Edytuj profil</a>
+        <a class="btn btn-danger" href="/UserProfile/Delete">Usuń profil</a>
+    </div>
+}
