@@ -1,0 +1,45 @@
+@model MeetLab.Models.User
+
+@{
+    ViewBag.Title = "Szczegóły użytkownika";
+}
+
+<div class="card" style="max-width: 500px; margin: auto; margin-top: 50px;">
+    <div class="card-header bg-primary text-white">
+        <h4 class="mb-0">Szczegóły użytkownika</h4>
+    </div>
+    <div class="card-body">
+        <table class="table table-bordered">
+            <tr>
+                <th>Imię</th>
+                <td>@Model.FirstName</td>
+            </tr>
+            <tr>
+                <th>Nick</th>
+                <td>@Model.NickName</td>
+            </tr>
+            <tr>
+                <th>Data dołączenia</th>
+                <td>@Model.RegistrationDate.ToString("dd.MM.yyyy")</td>
+            </tr>
+        </table>
+
+        <div class="d-flex justify-content-between mt-4">
+            @using (Html.BeginForm("ResetToken", "Admin", new { nickname = Model.NickName }, FormMethod.Post))
+            {
+                <button class="btn btn-warning" type="submit">Resetuj token</button>
+            }
+            
+            @using (Html.BeginForm("ResetPassword", "Admin", new { nickname = Model.NickName }, FormMethod.Post))
+            {
+                <button class="btn btn-info" type="submit">Resetuj hasło</button>
+            }
+
+            @using (Html.BeginForm("DeleteUser", "Admin", FormMethod.Post, new { onsubmit = "return confirm('Na pewno chcesz usunąć użytkownika? :c');" }))
+            {
+                @Html.Hidden("nickname", Model.NickName)
+                <button class="btn btn-danger" type="submit">Usuń użytkownika</button>
+            }
+        </div>
+    </div>
+</div>

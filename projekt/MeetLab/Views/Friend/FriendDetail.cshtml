@@ -1,0 +1,73 @@
+@model MeetLab.Models.ViewModels.FriendDetailViewModel
+
+@{
+    ViewBag.Title = "Szczegóły znajomego";
+}
+
+<div class="card" style="max-width: 500px; margin: auto; margin-top: 50px;">
+    <div class="card-header bg-info text-white">
+        <h4 class="mb-0">Szczegóły znajomego</h4>
+    </div>
+    <div class="card-body">
+        <table class="table table-bordered">
+            <tr>
+                <th>Nick</th>
+                <td>@Model.Friend.NickName</td>
+            </tr>
+            <tr>
+                <th>Imię</th>
+                <td>@Model.Friend.FirstName</td>
+            </tr>
+            <tr>
+                <th>Data rejestracji</th>
+                <td>@Model.Friend.RegistrationDate.ToString("dd.MM.yyyy")</td>
+            </tr>
+        </table>
+
+        <div class="mt-3">
+            @if (Model.ExistingFriendship != null)
+            {
+                if (Model.ExistingFriendship.Status == Status.SENT)
+                {
+                    if (Model.ExistingFriendship.Sender == Model.CurrentUserNick)
+                    {
+                        <span class="text-muted">✔ Zaproszenie wysłane</span>
+                    }
+                    else if (Model.ExistingFriendship.Receiver == Model.CurrentUserNick)
+                    {
+                        <form asp-action="AcceptFriend" asp-controller="Friend" method="post">
+                            <input type="hidden" name="id" value="@Model.ExistingFriendship.Id" />
+                            <button class="btn btn-success">Akceptuj zaproszenie</button>
+                        </form>
+
+                        <form asp-action="DenyFriend" asp-controller="Friend" method="post" style="display:inline-block;">
+                            <input type="hidden" name="id" value="@Model.ExistingFriendship.Id" />
+                            <button class="btn btn-danger">Odrzuć zaproszenie</button>
+                        </form>
+                    }
+                }
+                else if (Model.ExistingFriendship.Status == Status.ACCEPTED)
+                {
+                    <form asp-action="RemoveFriend" asp-controller="Friend" method="post">
+                        <input type="hidden" name="id" value="@Model.ExistingFriendship.Id" />
+                        <button class="btn btn-danger">Usuń ze znajomych</button>
+                    </form>
+                }
+                else if (Model.ExistingFriendship.Status == Status.DENIED)
+                {
+                    <form asp-action="SendFriendRequest" asp-controller="Friend" method="post">
+                        <input type="hidden" name="receiver" value="@Model.Friend.NickName" />
+                        <button class="btn btn-warning">Wyślij zaproszenie jeszcze raz</button>
+                    </form>
+                }
+            }
+            else
+            {
+                <form asp-action="SendFriendRequest" asp-controller="Friend" method="post">
+                    <input type="hidden" name="receiver" value="@Model.Friend.NickName" />
+                    <button class="btn btn-primary">Wyślij zaproszenie</button>
+                </form>
+            }
+        </div>
+    </div>
+</div>

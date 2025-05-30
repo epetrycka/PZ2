@@ -1,0 +1,41 @@
+@model MessageViewModel
+
+@{
+    ViewBag.Title = "Poczta";
+}
+
+<h2>Rozmowa z @Model.WithUser</h2>
+
+<h4>Wyślij nową wiadomość do @Model.WithUser</h4>
+<form asp-action="SendMessage" method="post">
+    <input type="hidden" name="receiverNick" value="@Model.WithUser" />
+    <div class="mb-3">
+        <input type="text" name="title" class="form-control" placeholder="Tytuł" required />
+    </div>
+    <div class="mb-3">
+        <textarea name="content" class="form-control" placeholder="Treść wiadomości" rows="4" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Wyślij</button>
+</form>
+
+<p></p>
+
+<div>
+    <a asp-action="Conversation" asp-route-withUser="@Model.WithUser" asp-route-box="inbox" class="btn btn-outline-primary @(Model.Box == "inbox" ? "active" : "")">Odebrane</a>
+    <a asp-action="Conversation" asp-route-withUser="@Model.WithUser" asp-route-box="sent" class="btn btn-outline-secondary @(Model.Box == "sent" ? "active" : "")">Wysłane</a>
+</div>
+
+<hr />
+
+<div class="card" style="height: 180px; overflow-y: scroll;">
+    <div class="card-body d-flex flex-column">
+        @foreach (var msg in Model.Messages)
+        {
+            <div class="mb-3">
+                <div><strong>@msg.Title</strong> <small class="text-muted">@msg.SentDate.ToString("g")</small></div>
+                <div>@msg.Content</div>
+                <hr />
+            </div>
+        }
+    </div>
+</div>

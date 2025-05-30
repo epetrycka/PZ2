@@ -1,0 +1,13 @@
+@{
+    ViewBag.Title = "Token zresetowany";
+    var nickname = TempData["nickname"]?.ToString();
+}
+
+<div class="alert alert-success mt-5 text-center">
+    <h4>Pomyślnie zresetowano token użytkownika!</h4>
+
+    <form asp-controller="Admin" asp-action="UserDetails" method="get">
+        <input type="hidden" name="nickname" value="@nickname" />
+        <button type="submit" class="btn btn-primary mt-3">Wróć do szczegółów</button>
+    </form>
+</div>

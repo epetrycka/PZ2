@@ -1,0 +1,23 @@
+@model MeetLab.Models.Post
+
+@{
+    ViewData["Title"] = "Posty";
+}
+
+<h2>Dodaj nowy post</h2>
+
+<form asp-action="Create" method="post" enctype="multipart/form-data">
+    <div class="mb-3">
+        <label>Tytuł</label>
+        <input type="text" name="Title" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label>Treść</label>
+        <textarea name="Content" class="form-control" required></textarea>
+    </div>
+    <div class="mb-3">
+        <label>Zdjęcie (opcjonalnie)</label>
+        <input type="file" name="image" class="form-control" />
+    </div>
+    <button class="btn btn-success">Dodaj post</button>
+</form>

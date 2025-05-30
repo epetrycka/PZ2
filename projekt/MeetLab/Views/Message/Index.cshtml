@@ -1,0 +1,23 @@
+@model List<string>
+
+@{
+    ViewBag.Title = "Poczta";
+}
+
+<h2>Wybierz znajomego do rozmowy</h2>
+
+@if (Model != null && Model.Any())
+{
+    <ul class="list-group">
+    @foreach(var friend in Model)
+    {
+        <li class="list-group-item">
+            <a asp-action="Conversation" asp-route-withUser="@friend" class="list-group-item list-group-item-action">@friend</a>
+        </li>
+    }
+    </ul>
+}
+else
+{
+    <p>Nie masz jeszcze żadnych znajomych 😢</p>
+}

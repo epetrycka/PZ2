@@ -1,0 +1,48 @@
+@model MeetLab.Models.ViewModels.UserFriendsViewModel
+
+@{
+    ViewData["Title"] = "Znajomi";
+}
+
+<h2>Twoi znajomi</h2>
+
+<form asp-action="SearchFriend" asp-controller="Friend" method="post" class="mb-3">
+    <input type="text" name="nickname" placeholder="Szukaj po nicku..." required class="form-control" />
+    <button type="submit" class="btn btn-primary mt-2">Szukaj</button>
+</form>
+
+@if (Model.SearchedFriends.Any())
+{
+    <h3>Wyniki wyszukiwania:</h3>
+    <div class="list-group mb-4">
+        @foreach (var friend in Model.SearchedFriends)
+        {
+            <a asp-action="FriendDetail" asp-route-nickname="@friend.NickName" class="list-group-item list-group-item-action">
+                <strong>@friend.FirstName</strong> (@friend.NickName)
+            </a>
+        }
+    </div>
+}
+else if (Model.WasSearchPerformed)
+{
+    <p>Nie znaleziono użytkowników</p>
+}
+
+<hr></hr>
+
+@if (Model.Friends.Any())
+{
+    <h3>Lista znajomych:</h3>
+    <div class="list-group">
+        @foreach (var friend in Model.Friends)
+        {
+            <a asp-action="FriendDetail" asp-route-nickname="@friend.NickName" class="list-group-item list-group-item-action">
+                <strong>@friend.FirstName</strong> (@friend.NickName)
+            </a>
+        }
+    </div>
+}
+else
+{
+    <p>Nie masz jeszcze żadnych znajomych 😢</p>
+}
