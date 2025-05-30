@@ -1,6 +1,4 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Http;
-using Microsoft.Extensions.Caching.Memory;
 using System.Text.RegularExpressions;
 using System.Security.Cryptography;
 using System.Text;
@@ -40,7 +38,6 @@ public class AdminController : Controller
         {
             ViewData["error"] = "Nickname musi mieć 3-20 znaków i zawierać tylko litery lub cyfry.";
 
-            // Pobierz listę użytkowników, by wyświetlić ją ponownie
             ViewData["AllUsers"] = _context.Users
                 .OrderBy(u => u.NickName)
                 .Select(u => u.NickName)

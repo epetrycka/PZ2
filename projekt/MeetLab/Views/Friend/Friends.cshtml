@@ -46,3 +46,28 @@ else
 {
     <p>Nie masz jeszcze żadnych znajomych 😢</p>
 }
+
+<hr />
+@if (Model.PendingFriendRequests.Any())
+{
+    <h3>Oczekujące zaproszenia:</h3>
+    <div class="list-group">
+        @foreach (var item in Model.PendingFriendRequests)
+        {
+            var friendship = item.Friendship;
+            var sender = item.Sender;
+
+            <div class="list-group-item d-flex justify-content-between align-items-center">
+                <div>
+                    <strong>@sender.FirstName</strong> (@sender.NickName)
+                </div>
+                <div>
+                    <form asp-action="AcceptFriend" method="post" style="display:inline">
+                        <input type="hidden" name="id" value="@friendship.Id" />
+                        <button type="submit" class="btn btn-success btn-sm">Akceptuj</button>
+                    </form>
+                </div>
+            </div>
+        }
+    </div>
+}

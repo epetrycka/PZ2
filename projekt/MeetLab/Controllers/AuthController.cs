@@ -1,6 +1,4 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Http;
-using Microsoft.Extensions.Caching.Memory;
 using System.Text.RegularExpressions;
 using System.Security.Cryptography;
 using System.Text;
@@ -144,38 +142,4 @@ public class AuthController : Controller
     {
         return View();
     }
-
-    // [Route("Comments")]
-    // [HttpGet]
-    // public IActionResult Comments()
-    // {
-    //     var dane = _context.Dane.ToList();
-    //     return View(dane);
-    // }
-
-    // [HttpGet("AddComment")]
-    // public IActionResult AddCommentForm()
-    // {
-    //     return View("AddComment");
-    // }
-
-    // [HttpPost("AddComment")]
-    // public IActionResult AddComment(IFormCollection form)
-    // {
-    //     string comment = form["comment"].ToString();
-
-    //     if (string.IsNullOrEmpty(comment))
-    //     {
-    //         ViewData["error"] = "Komentarz nie może być pusty";
-    //         return View("AddComment");
-    //     }
-
-    //     var nowyKomentarz = new Dane { Tekst = comment };
-    //     _context.Dane.Add(nowyKomentarz);
-    //     _context.SaveChanges();
-
-    //     ViewData["success"] = "Komentarz został dodany!";
-    //     return View("AddComment");
-    // }
-
 }

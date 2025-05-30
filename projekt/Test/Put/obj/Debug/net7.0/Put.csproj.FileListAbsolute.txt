@@ -1,0 +1,15 @@
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Put\obj\Debug\net7.0\Put.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Put\obj\Debug\net7.0\Put.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Put\obj\Debug\net7.0\Put.AssemblyInfo.cs
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Put\obj\Debug\net7.0\Put.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Put\obj\Debug\net7.0\Put.sourcelink.json
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Put\bin\Debug\net7.0\Put.exe
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Put\bin\Debug\net7.0\Put.deps.json
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Put\bin\Debug\net7.0\Put.runtimeconfig.json
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Put\bin\Debug\net7.0\Put.dll
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Put\bin\Debug\net7.0\Put.pdb
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Put\obj\Debug\net7.0\Put.dll
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Put\obj\Debug\net7.0\refint\Put.dll
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Put\obj\Debug\net7.0\Put.pdb
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Put\obj\Debug\net7.0\Put.genruntimeconfig.cache
+C:\Users\User\OneDrive\Dokumenty\PZ2\projekt\Test\Put\obj\Debug\net7.0\ref\Put.dll
