@@ -1,0 +1,9 @@
+@{
+    ViewData["Title"] = "Sukces logowania";
+}
+
+<h2>Zalogowano pomyślnie!</h2>
+
+<form asp-controller="Auth" asp-action="LogOut" method="post">
+    <button type="submit" class="btn btn-danger">Wyloguj</button>
+</form>

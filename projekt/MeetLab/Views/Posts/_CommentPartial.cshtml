@@ -1,0 +1,11 @@
+@model List<MeetLab.Models.Comment>
+
+@if (Model != null && Model.Any()){
+    @foreach (var comment in Model.OrderByDescending(c => c.CreatedAt))
+    {
+        <div class="border p-2 mt-1">
+            <strong>@comment.AuthorNick</strong>: @comment.Text
+            <div class="text-muted" style="font-size: 0.85em;">@comment.CreatedAt.ToString("g")</div>
+        </div>
+    }
+}

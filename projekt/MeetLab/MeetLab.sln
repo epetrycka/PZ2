@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetLab", "MeetLab.csproj", "{4D47874B-932E-68E5-326C-1EE10AB94BF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D47874B-932E-68E5-326C-1EE10AB94BF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D47874B-932E-68E5-326C-1EE10AB94BF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D47874B-932E-68E5-326C-1EE10AB94BF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D47874B-932E-68E5-326C-1EE10AB94BF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {076D2DE0-3F4E-495E-937B-E4E80B485D7F}
+	EndGlobalSection
+EndGlobal
