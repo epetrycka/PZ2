@@ -79,7 +79,6 @@ public class FriendController : Controller
         return View("Friends", viewModel);
     }
 
-
     [HttpGet("detail/{nickname}")]
     public IActionResult FriendDetail(string nickname)
     {
@@ -95,6 +94,14 @@ public class FriendController : Controller
                 (f.Sender == nickname && f.Receiver == currentUserNick)
             );
 
+        bool areFriends = false;
+
+        areFriends = _context
+            .Users
+            .Where(u => u.NickName == currentUserNick)
+            .SelectMany(u => u.Friends)
+            .Any(f => f.NickName == nickname);
+
         var userProfile = _context.UserProfiles.FirstOrDefault(u => u.NickName == nickname) ?? null;
 
         var model = new MeetLab.Models.ViewModels.FriendDetailViewModel
@@ -102,7 +109,8 @@ public class FriendController : Controller
             Friend = friend,
             CurrentUserNick = currentUserNick,
             ExistingFriendship = existingFriendship,
-            UserProfile = userProfile
+            UserProfile = userProfile,
+            AreFriends = areFriends
         };
 
         return View(model);
